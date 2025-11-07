@@ -614,7 +614,6 @@ line-height:1.8em;
   -o-background-size: cover;
   -ms-background-size: cover;
   -moz-background-size: cover;
-  min-height: 620px;
 padding-top:80px;
 }
 .pests-header p {
@@ -2756,7 +2755,7 @@ line-height:1.8em;
 	.ch-info-wrap {
 	  width: 81.3%;
 	  }
-	.pest-con-grid:nth-child(3) {
+	.pest-con-grid:nth-child(3), .pest-con-grid:nth-child(4) {
 	  margin-top: 8px;
 	}
 	.wel-grids, .ch-grid, .news-grids, .work-bottom {
