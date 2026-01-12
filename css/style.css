@@ -278,8 +278,11 @@ color:#ffa229;
 font-size:32px;
 }
 .page-head h3 {
-font-size:38px;
-color:#020202;
+font-size: 48px;
+color: #ff8c00;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 3px;
 }
 .welcome{
 padding:80px 0;
@@ -782,32 +785,47 @@ color: #fff;
 /*-- //footer --*/
 /*-- typo --*/
 /*--trypography--*/
- .page-head {
-  padding: 70px 0 0 0;
-  min-height: 190px !important;
- }
-.typrography,.works-section,.contact,.single  {
-    padding:80px 0;
+.page-head {
+  padding: 80px 0;
+  min-height: 220px !important;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  border-top: 6px solid #ff8c00;
+  border-bottom: 6px solid #ff8c00;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.grid_4{
-	background:#fff;
-} 
-.grid_3.grid_4 h3 {
-  margin: 0;
-} 
-.grid_5{
-	background:#fff;
-	padding:1em 0 2em 0;
+.page-head::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 140, 0, 0.05) 10px,
+      rgba(255, 140, 0, 0.05) 20px
+    );
+  pointer-events: none;
 }
-
-.table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-  padding: 15px!important;
+.page-head h3 {
+  font-size: 48px;
+  color: #ff8c00;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 20px;
 }
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-  font-size: 0.8em;
-  color: #999;
-}
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-top: none !important;
 }
 .tab-content > .active {
@@ -2304,6 +2322,13 @@ line-height:1.8em;
 	.header {
 	  padding: 23px 0;
 	}
+	.page-head {
+	  min-height: 180px !important;
+	  padding: 60px 0 !important;
+	}
+	.page-head h3 {
+	  font-size: 32px;
+	}
 	.social-icons ul {
 	  margin: 8px 0 0 0;
 	  }
@@ -2723,6 +2748,13 @@ line-height:1.8em;
 	}
 	.logo a {
 	  font-size: 28px;
+	}
+	.page-head {
+	  min-height: 160px !important;
+	  padding: 50px 0 !important;
+	}
+	.page-head h3 {
+	  font-size: 26px;
 	}
 	.banner-info {
 	  width: 100%;
