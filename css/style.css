@@ -168,6 +168,20 @@ background: url(../images/img-sprite.png) no-repeat -133px 0px;
 .navigation {
   padding: 0 0 25px 0;
 }
+.phone-icon {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+.phone-text {
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.icon {
+	width:32px;
+	height:32px;
+}
 /*-- //header --*/
 /* Bounce To Bottom */
 .hvr-bounce-to-bottom {
