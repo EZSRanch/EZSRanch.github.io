@@ -1484,61 +1484,120 @@ div#portfoliolist {
 width:100%;
 height:300px;
 }
+.contact {
+  padding: 60px 0;
+}
 .contact h3 {
   font-family: 'Roboto Slab', serif;
- margin: 0 0 25px 0;
-  font-size: 22px;
+  margin: 0;
+  font-size: 32px;
   text-align:center;
   color: #ffa229;
 }
-.map iframe {
+.contact-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-header p {
+  font-size: 14px;
+  color: #020202;
+  margin-top: 10px;
+  line-height: 1.6em;
+}
+.contact-form-wrapper {
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contact-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.form-row.full-width {
+  grid-template-columns: 1fr;
+}
+.contact-form-wrapper input[type="text"],
+.contact-form-wrapper input[type="email"],
+.contact-form-wrapper input[type="tel"] {
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 15px;
+  font-size: 14px;
+  color: #020202;
+  font-family: 'Open Sans', sans-serif;
+  transition: border-color 0.3s ease;
+  background: #fff;
+}
+.contact-form-wrapper input[type="text"]:focus,
+.contact-form-wrapper input[type="email"]:focus,
+.contact-form-wrapper input[type="tel"]:focus {
+  border-color: #ffa229;
+  background: #fff;
+}
+.contact-form-wrapper input::placeholder,
+.contact-form-wrapper textarea::placeholder {
+  color: #999;
+}
+.contact-form-wrapper textarea {
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
   width: 100%;
-  height: 340px;
+  height: 150px;
+  outline: none;
+  font-size: 14px;
+  color: #020202;
+  resize: none;
+  padding: 12px 15px;
+  font-family: 'Open Sans', sans-serif;
+  transition: border-color 0.3s ease;
+  background: #fff;
 }
-.contact-form input[type="text"] {
-	border: 1px solid #a8a8a8;
-	width: 31.65%;
-	outline: none;
-	padding: 10px;
-	font-size: 13px;
-	color: #020202;
-	margin: 0 24px 24px 0;
-}
-.contact-form textarea {
-	border: 1px solid #a8a8a8;
-	width: 100%;
-	height: 185px;
-	outline: none;
-	font-size: 13px;
-	color: #020202;
-	resize: none;
-	padding: 10px;
-	margin-bottom: 24px;
-}
-.contact-form input[type="text"]:nth-child(3){
-margin-right:0;
+.contact-form-wrapper textarea:focus {
+  border-color: #ffa229;
+  background: #fff;
 }
 .btn1 {
-  border:none;
+  border: none;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
   color: #fff;
-  padding: 9px 32px;
+  padding: 14px 40px;
   background: #ffa229;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  align-self: flex-start;
 }
 .btn1:hover{
-background:#020202;
+  background: #020202;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .contact-info{
 margin:0 0 50px 0;
 }
 .contact-map{
 margin:0 0 50px 0;
+}
+.map iframe {
+  width: 100%;
+  height: 340px;
 }
 /*--//contact-page--*/
 /*-- about-page --*/
