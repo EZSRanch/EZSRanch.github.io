@@ -193,7 +193,7 @@ background: url(../images/img-sprite.png) no-repeat -133px 0px;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffa445;
+  background: #ffa229;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -233,7 +233,7 @@ width:40%;
 margin:0;
 font-size:22px;
 font-family: 'Roboto Slab', serif;
-color:#ffa445;
+color:#ffa229;
 }
 .banner-info p{
 font-size:13px;
@@ -260,7 +260,7 @@ padding: 16px 24px;
 /*-- //banner --*/
 /*-- welcome --*/
 .wel-header h3,.pests-header h3,.news-text h3   {
-color:#ffa445;
+color:#ffa229;
 font-size:32px;
 }
 .page-head h3 {
@@ -290,7 +290,7 @@ margin-top:50px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #ffa445;
+  background: #ffa229;
   margin: 0 auto;
   text-align: center;
   position: relative;	
@@ -353,7 +353,7 @@ margin-top:50px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background:#ffa445;
+  background:#ffa229;
   position: absolute;
   top: 0;
   left: 0;
@@ -386,7 +386,7 @@ color:#020202;
 font-family: 'Roboto Slab', serif;
 }
 .wel-grid.btm-gre h3{
-color:#ffa445 !important;
+color:#ffa229 !important;
 }
 .wel-grid p {
   font-size: 13px;
@@ -485,11 +485,11 @@ margin-top:50px;
 	-o-transform:rotate3d(0,1,0,180deg);
 	-ms-transform:rotate3d(0,1,0,180deg);
 	transform:rotate3d(0,1,0,180deg);
-	background: #ffa445;
-	  -webkit-background: #ffa445;
-  -o-background: #ffa445;
-  -ms-background: #ffa445;
-  -moz-background: #ffa445;
+	background: #ffa229;
+	  -webkit-background: #ffa229;
+  -o-background: #ffa229;
+  -ms-background: #ffa229;
+  -moz-background: #ffa229;
 }
 
 .ch-img-1 { 
@@ -661,7 +661,7 @@ text-decoration:none;
 text-transform:uppercase;
   margin: 0px 0;
   font-size: 18px;
-  color: #ffa445;
+  color: #ffa229;
 font-family: 'Roboto Slab', serif;
 }
 .news-grid a:hover{
@@ -709,7 +709,7 @@ img.zoom-img:hover {
 /*-- footer --*/
 /*--footer--*/
 .footer {
-  background:#ffa445;
+  background:#ffa229;
   padding: 1em 0;
 }
 .logo2{
@@ -760,7 +760,7 @@ color: #fff;
 text-align:center;
 }
 .copy-right p a{
-color:#ffa445;
+color:#ffa229;
 }
 .copy-right p a:hover{
 color: #fff;
@@ -1134,7 +1134,7 @@ height:300px;
  margin: 0 0 25px 0;
   font-size: 22px;
   text-align:center;
-  color: #ffa445;
+  color: #ffa229;
 }
 .map iframe {
   width: 100%;
@@ -1169,7 +1169,7 @@ margin-right:0;
   font-size: 20px;
   color: #fff;
   padding: 9px 32px;
-  background: #ffa445;
+  background: #ffa229;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1213,7 +1213,7 @@ width:100%;
 .about-grid h4 {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  color: #ffa445;
+  color: #ffa229;
   font-size: 22px;
 }
 .about-grid p {
@@ -1236,7 +1236,7 @@ padding:80px 0;
 .team-bottom h4{
 margin:15px 0;
   font-family: 'Roboto Slab', serif;
-  color: #ffa445;
+  color: #ffa229;
   font-size: 19px;
 }
 .team-bottom p{
@@ -1251,7 +1251,7 @@ line-height:1.8em;
   text-align: center;
   font-size: 32px;
   font-family: 'Roboto Slab', serif;
-  color: #ffa445;
+  color: #ffa229;
 }
 .team-left{
 margin:0 22px;
@@ -1321,7 +1321,7 @@ text-align:center;
 }
 .testimonial h3{
   margin: 0 0 20px 0;
-  color: #ffa445;
+  color: #ffa229;
   font-size: 32px;
   font-family: 'Roboto Slab', serif;
 }
@@ -1618,14 +1618,14 @@ p.est span{
 .media-body h4{
   font-family: 'Roboto Slab', serif;
 text-transform:uppercase;
-	color:#ffa445;
+	color:#ffa229;
 	font-size: 17px;
 	margin: 0 0 12px;
 }
 .media-body a{
 float:right;
 	font-size:15px;
-	color:#ffa445;
+	color:#ffa229;
 	text-decoration:none;
 }
 .media-body a:hover{
@@ -1662,7 +1662,7 @@ float:right;
 	}
 .leave-a-comment input[type="submit"]{
 text-transform:uppercase;
-	background:#ffa445;
+	background:#ffa229;
 	color:#fff;
 	font-size:18px;
 	outline:none;
@@ -1708,7 +1708,7 @@ text-transform:uppercase;
   margin-bottom: 0 !important;
 }
 .search11 input[type="submit"] {
-  background:#ffa445;
+  background:#ffa229;
   color: #fff;
   font-size: 18px;
   transition: .5s all;
@@ -1723,11 +1723,11 @@ text-transform:uppercase;
  margin: .5em 0 2em;
 }
 .search11 input[type="submit"]:hover{
-	background:#ffa445;
+	background:#ffa229;
 	color:#fff ;
 }
 .search11 h3{
-  color: #ffa445;
+  color: #ffa229;
   font-size: 25px;
   text-transform: capitalize;
   margin: 0 0 1em;
@@ -1761,7 +1761,7 @@ text-transform:uppercase;
 }
 .categories ul li a:hover{
 	text-decoration:none;
-	color:#ffa445;
+	color:#ffa229;
 	padding-left:1em;
 	  transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -1782,7 +1782,7 @@ text-transform:uppercase;
 }
 .categories h3,.search h3,.related-posts h3,.leave-a-comment h3,.sing-img-text h3 {
   font-family: 'Roboto Slab', serif;
-  color:#ffa445;
+  color:#ffa229;
   font-size: 22px;
   text-transform:uppercase;
   margin:0 0 1em;
@@ -1823,14 +1823,14 @@ text-transform:uppercase;
 }
 .related-post-right h4 a{
 font-family: 'Roboto Slab', serif;
-	color:#ffa445;
+	color:#ffa229;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration:none;
 }
 .related-post-right h4 a:hover{
 	text-decoration:none;
-	color:#ffa445;
+	color:#ffa229;
 }
 .related-post-right p {
   margin:0;
@@ -1847,7 +1847,7 @@ text-decoration:none;
   color: #020202;
 }
 .admin-tag1 p a:hover {
-	color:#ffa445;
+	color:#ffa229;
 }
 .media-left img{
 width:100%;
