@@ -26,6 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa3IW2lEnf3lGY6i7IILmRVs0dL4p+5K8yDelDgVCVerfQWZXmydSnqWAxf+tNjrvre+KRLVF60DLkaZzZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- //fonts -->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -102,65 +103,172 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- gallery -->
 <div class="moments">
-		<div class="container">
-				<script src="js/jquery.chocolat.js"></script>
-					<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
-					<!--light-box-files -->
-					<script type="text/javascript" charset="utf-8">
-					$(function() {
-						$('.moments-bottom a').Chocolat();
-					});
-					</script>
-			<div class="moments-bottom">
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="275XE w mulcher.jpg.jpg">
-							<img class="img-responsive zoom-img" src="images/275XE w mulcher.jpg" alt="name" />
-						</a>
+	<div class="container">
+		<div class="gallery-grid">
+			<!-- Equipment -->
+			<div class="gallery-item equipment" data-category="equipment">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/275XE w mulcher.jpg" alt="275XE with Mulcher" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" class="mask1" href="images/275XE w grapple.jpg">
-							<img class="img-responsive zoom-img" src="images/275XE w grapple.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>275XE with Mulcher</h4>
+					<p>Equipment</p>
+				</div>
+			</div>
+
+			<div class="gallery-item equipment" data-category="equipment">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/275XE w grapple.jpg" alt="275XE with Grapple" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/truck w loaded trailer.jpg">
-							<img class="img-responsive zoom-img" src="images/truck w loaded trailer.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>275XE with Grapple</h4>
+					<p>Equipment</p>
+				</div>
+			</div>
+
+			<div class="gallery-item equipment" data-category="equipment">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/truck w loaded trailer.jpg" alt="Truck with Loaded Trailer" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/mulch before.jpg">
-							<img class="img-responsive zoom-img" src="images/mulch before.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>Truck with Loaded Trailer</h4>
+					<p>Equipment</p>
+				</div>
+			</div>
+
+			<!-- Before & After -->
+			<div class="gallery-item before-after" data-category="before-after">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/mulch before.jpg" alt="Mulch Before" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/mulch after.jpg">
-							<img class="img-responsive zoom-img" src="images/mulch after.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>Before</h4>
+					<p>Land Clearing</p>
+				</div>
+			</div>
+
+			<div class="gallery-item before-after" data-category="before-after">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/mulch after.jpg" alt="Mulch After" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/mulch after detail.jpg">
-							<img class="img-responsive zoom-img" src="images/mulch after detail.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>After</h4>
+					<p>Land Clearing</p>
+				</div>
+			</div>
+
+			<div class="gallery-item before-after" data-category="before-after">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/mulch after detail.jpg" alt="Mulch After Detail" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/w6.jpg">
-							<img class="img-responsive zoom-img" src="images/w6.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>After Detail</h4>
+					<p>Land Clearing</p>
+				</div>
+			</div>
+
+			<!-- Other Projects -->
+			<div class="gallery-item projects" data-category="projects">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/w6.jpg" alt="Project 1" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/w1.jpg">
-							<img class="img-responsive zoom-img" src="images/w1.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>Project 1</h4>
+					<p>Landscaping</p>
+				</div>
+			</div>
+
+			<div class="gallery-item projects" data-category="projects">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/w1.jpg" alt="Project 2" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="col-md-4 moments-left">
-						<a class="mask1" href="images/w5.jpg">
-							<img class="img-responsive zoom-img" src="images/w5.jpg" alt="name" />
-						</a>
+				</div>
+				<div class="gallery-caption">
+					<h4>Project 2</h4>
+					<p>Landscaping</p>
+				</div>
+			</div>
+
+			<div class="gallery-item projects" data-category="projects">
+				<div class="gallery-image-wrapper">
+					<img class="gallery-img" src="images/w5.jpg" alt="Project 3" />
+					<div class="gallery-overlay">
+						<div class="gallery-icon">
+							<i class="fa fa-search"></i>
+						</div>
 					</div>
-					<div class="clearfix"> </div>
+				</div>
+				<div class="gallery-caption">
+					<h4>Project 3</h4>
+					<p>Landscaping</p>
+				</div>
 			</div>
 		</div>
+	</div>
 </div>
+
+<!-- Gallery Modal / Carousel -->
+<div id="galleryModal" class="gallery-modal">
+	<div class="gallery-modal-content">
+		<span class="gallery-close">&times;</span>
+		<div class="gallery-carousel">
+			<div class="carousel-image">
+				<img id="carouselImage" src="" alt="Gallery Image" />
+			</div>
+			<div class="carousel-info">
+				<h3 id="carouselTitle"></h3>
+				<p id="carouselDesc"></p>
+			</div>
+		</div>
+		<div class="carousel-nav">
+			<button class="carousel-prev">&larr;</button>
+			<button class="carousel-next">&rarr;</button>
+		</div>
+		<div class="carousel-counter">
+			<span id="carouselCounter"></span>
+		</div>
+	</div>
+</div>
+
 <!-- //gallery -->
 <!-- footer -->
 <div class="footer">
@@ -208,6 +316,87 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //footer -->
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-</body>
+<!-- //for bootstrap working --><!-- Gallery Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	// Gallery data - matches the gallery items
+	const galleryData = [
+		{ img: 'images/275XE w mulcher.jpg', title: '275XE with Mulcher', desc: 'Equipment' },
+		{ img: 'images/275XE w grapple.jpg', title: '275XE with Grapple', desc: 'Equipment' },
+		{ img: 'images/truck w loaded trailer.jpg', title: 'Truck with Loaded Trailer', desc: 'Equipment' },
+		{ img: 'images/mulch before.jpg', title: 'Before', desc: 'Land Clearing' },
+		{ img: 'images/mulch after.jpg', title: 'After', desc: 'Land Clearing' },
+		{ img: 'images/mulch after detail.jpg', title: 'After Detail', desc: 'Land Clearing' },
+		{ img: 'images/w6.jpg', title: 'Project 1', desc: 'Landscaping' },
+		{ img: 'images/w1.jpg', title: 'Project 2', desc: 'Landscaping' },
+		{ img: 'images/w5.jpg', title: 'Project 3', desc: 'Landscaping' }
+	];
+
+	let currentImageIndex = 0;
+	const modal = document.getElementById('galleryModal');
+	const galleryItems = document.querySelectorAll('.gallery-item');
+
+	// Open carousel on image click
+	galleryItems.forEach((item, index) => {
+		item.querySelector('.gallery-image-wrapper').addEventListener('click', function(e) {
+			e.preventDefault();
+			currentImageIndex = index;
+			openCarousel();
+		});
+	});
+
+	function openCarousel() {
+		updateCarouselImage();
+		modal.style.display = 'flex';
+		document.body.style.overflow = 'hidden';
+	}
+
+	function closeCarousel() {
+		modal.style.display = 'none';
+		document.body.style.overflow = 'auto';
+	}
+
+	function updateCarouselImage() {
+		const data = galleryData[currentImageIndex];
+		document.getElementById('carouselImage').src = data.img;
+		document.getElementById('carouselTitle').textContent = data.title;
+		document.getElementById('carouselDesc').textContent = data.desc;
+		document.getElementById('carouselCounter').textContent = (currentImageIndex + 1) + ' / ' + galleryData.length;
+	}
+
+	function nextImage() {
+		currentImageIndex = (currentImageIndex + 1) % galleryData.length;
+		updateCarouselImage();
+	}
+
+	function prevImage() {
+		currentImageIndex = (currentImageIndex - 1 + galleryData.length) % galleryData.length;
+		updateCarouselImage();
+	}
+
+	// Close button
+	document.querySelector('.gallery-close').addEventListener('click', closeCarousel);
+
+	// Next/Prev buttons
+	document.querySelector('.carousel-next').addEventListener('click', nextImage);
+	document.querySelector('.carousel-prev').addEventListener('click', prevImage);
+
+	// Keyboard navigation
+	document.addEventListener('keydown', function(event) {
+		if (modal.style.display === 'flex') {
+			if (event.key === 'ArrowLeft') prevImage();
+			if (event.key === 'ArrowRight') nextImage();
+			if (event.key === 'Escape') closeCarousel();
+		}
+	});
+
+	// Close on background click
+	modal.addEventListener('click', function(event) {
+		if (event.target === modal) {
+			closeCarousel();
+		}
+	});
+});
+</script>
+<!-- //Gallery Script --></body>
 </html>
