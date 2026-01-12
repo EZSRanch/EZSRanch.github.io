@@ -60,7 +60,7 @@ color:#020202;
 display:block;
 }
 .logo a span{
-color:#ffa445;
+color:#ffa229;
 }
 .header {
   padding: 30px 0;
@@ -90,7 +90,7 @@ background:#fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background: #ffa445;
+  background: #ffa229;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color:#fff;
