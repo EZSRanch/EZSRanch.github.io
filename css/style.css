@@ -1640,6 +1640,164 @@ width:100%;
   margin: 19px 0;
 }
 
+/*-- services-page --*/
+.services-page{
+padding:80px 0;
+background:#f9f9f9;
+}
+.services-page .about-info{
+text-align:center;
+margin-bottom:8px;
+}
+.services-page .about-info h3{
+font-family: 'Roboto Slab', serif;
+font-size:38px;
+font-weight:700;
+text-transform:uppercase;
+letter-spacing:2px;
+color:#020202;
+display:inline-block;
+position:relative;
+padding:0 22px 14px 22px;
+margin:0;
+text-shadow:0 1px 0 rgba(255,255,255,0.8);
+}
+.services-page .about-info h3:after{
+content:'';
+position:absolute;
+left:50%;
+bottom:0;
+width:85px;
+height:4px;
+margin-left:-42px;
+background:#ffa229;
+border-radius:2px;
+}
+.services-page .about-info p{
+font-size:15px;
+font-style:italic;
+line-height:1.9em;
+color:#5a5a5a;
+margin:22px auto 50px auto;
+max-width:760px;
+width:100%;
+}
+.service-row{
+display:flex;
+flex-wrap:wrap;
+margin-left:-15px;
+margin-right:-15px;
+}
+.service-col{
+display:flex;
+margin-bottom:30px;
+}
+.service-card{
+background:#fff;
+border:1px solid #ececec;
+border-top:4px solid #ffa229;
+box-shadow:0 6px 16px rgba(0,0,0,0.08);
+padding:30px 22px;
+width:100%;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+transition:all .3s ease;
+}
+.service-icon{
+width:64px;
+height:64px;
+border-radius:50%;
+background:#ffa229;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:18px;
+transition:all .3s ease;
+}
+.service-icon .glyphicon{
+font-size:30px;
+color:#fff;
+position:static;
+top:auto;
+left:auto;
+line-height:1;
+display:block;
+margin:0;
+transform:none;
+}
+.service-icon .glyphicon-tree-conifer,
+.service-icon .glyphicon-leaf{
+font-size:28px;
+}
+.service-content h4{
+font-family: 'Roboto Slab', serif;
+color:#020202;
+font-size:22px;
+margin:0 0 12px 0;
+}
+.service-content p{
+color:#444;
+font-size:13px;
+line-height:1.9em;
+margin:0;
+}
+.service-card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 28px rgba(0,0,0,0.18);
+border-top-color:#020202;
+}
+.service-card:hover .service-icon{
+background:#020202;
+transform:rotate(-6deg) scale(1.06);
+}
+
+.about-services-page .about-grids{
+display:flex;
+flex-wrap:wrap;
+margin-left:-15px;
+margin-right:-15px;
+}
+.about-services-page .about-grid{
+display:flex;
+}
+.about-services-page .service-col{
+margin-bottom:30px;
+}
+.about-services-page .service-card{
+padding:26px;
+}
+.about-image-card{
+padding:14px;
+justify-content:center;
+}
+.about-image-card img{
+width:100%;
+border-radius:4px;
+display:block;
+}
+.about-text-card .service-content h4{
+text-transform:uppercase;
+letter-spacing:1px;
+margin-bottom:16px;
+}
+.about-text-card .service-content p{
+font-size:14px;
+margin:0 0 16px 0;
+}
+.about-text-card .service-content p:last-child{
+margin-bottom:0;
+}
+.about-text-card .service-content a{
+color:#ffa229;
+font-weight:600;
+}
+.about-text-card .service-content a:hover{
+color:#020202;
+text-decoration:none;
+}
+/*-- //services-page --*/
+
 /*--flexisel--*/
 .work-bottom {
   margin-top: 50px;
